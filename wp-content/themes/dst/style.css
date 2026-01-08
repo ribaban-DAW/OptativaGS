@@ -13,7 +13,7 @@ Template: astra
 :root {
     --pink: #FFBBFF;
     --pink-shade: #DDA0DD;
-    --purple: #9370DB;
+    --purple: #69509b;
     --gray: #717182;
 
     --footer_section_horizontal_margin: 5em;
@@ -278,6 +278,8 @@ body {
 
     li > a {
         opacity: 90%;
+        min-width: 44px;
+        min-height: 44px;
     }
 
     li > a:hover {
@@ -316,4 +318,9 @@ body {
     text-align: center;
     width: 90%;
     border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+
+:root {
+    --ast-global-color-0: #000;
 }

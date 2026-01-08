@@ -36,12 +36,12 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
 
-<a
+<!-- <a
 	class="skip-link screen-reader-text"
 	href="#content"
 	title="<?php echo esc_attr( astra_default_strings( 'string-header-skip-link', false ) ); ?>">
 		<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
-</a>
+</a> -->
 
 <div>
 	<header class="dst-header">
